@@ -22,9 +22,7 @@ Menjawab pertanyaan dan menjelaskan project bagian
 mulai di menit 02:07:30
 
 **Struktur project**
-
-Struktur project
-
+```
 ├── public/                 # Aset statis publik
 │   ├── favicon.svg
 │   └── icons.svg
@@ -80,6 +78,8 @@ Struktur project
 │   └── main.tsx
 ├── .gitignore
 └── db.json                 # Mock database (JSON Server)
+```
+
 
 
 ## Design Decision
