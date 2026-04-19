@@ -23,29 +23,31 @@ mulai di menit 02:07:30
 
 **Struktur project**
 
-├── public/                  # Aset statis publik
+Struktur project
+
+├── public/                 # Aset statis publik
 │   ├── favicon.svg
 │   └── icons.svg
-├── src/                     # Source code utama aplikasi
-│   ├── assets/              # Aset gambar dan media lokal
+├── src/                    # Source code utama aplikasi
+│   ├── assets/             # Aset gambar dan media lokal
 │   │   ├── logo payment/
 │   │   ├── logo provider/
 │   │   ├── hero.jpg
 │   │   ├── react.svg
 │   │   └── vite.svg
-│   ├── components/          # Komponen UI global (Re-usable)
+│   ├── components/         # Komponen UI global (Re-usable)
 │   │   └── layout/
 │   │       ├── MainLayout.tsx
 │   │       └── Navbar.tsx
-│   ├── context/             # Global state management (React Context)
+│   ├── context/            # Global state management (React Context)
 │   │   └── AuthContext.tsx
-│   ├── pages/               # Halaman utama aplikasi (Routing)
+│   ├── pages/              # Halaman utama aplikasi (Routing)
 │   │   ├── auth/
 │   │   │   └── Login.tsx
 │   │   ├── checkout/
 │   │   │   └── Checkout.tsx
 │   │   ├── dashboard/
-│   │   │   ├── components/  # Komponen khusus halaman Dashboard
+│   │   │   ├── components/ # Komponen khusus halaman Dashboard
 │   │   │   │   ├── EmptyState.tsx
 │   │   │   │   ├── ErrorState.tsx
 │   │   │   │   ├── Hero.tsx
@@ -60,15 +62,15 @@ mulai di menit 02:07:30
 │   │   │   └── Success.tsx
 │   │   └── transactions/
 │   │       └── TransactionHistory.tsx
-│   ├── routes/              # Konfigurasi routing aplikasi
+│   ├── routes/             # Konfigurasi routing aplikasi
 │   │   ├── AppRoutes.tsx
 │   │   └── ProtectedRoute.tsx
-│   ├── services/            # Logika pemanggilan API / Backend
+│   ├── services/           # Logika pemanggilan API / Backend
 │   │   ├── api.ts
 │   │   ├── authService.ts
 │   │   ├── packageService.ts
 │   │   └── transactionService.ts
-│   ├── types/               # Definisi tipe data TypeScript (Interfaces)
+│   ├── types/              # Definisi tipe data TypeScript (Interfaces)
 │   │   ├── package.ts
 │   │   ├── transaction.ts
 │   │   └── user.ts
@@ -77,7 +79,7 @@ mulai di menit 02:07:30
 │   ├── index.css
 │   └── main.tsx
 ├── .gitignore
-└── db.json                  # Mock database (JSON Server)
+└── db.json                 # Mock database (JSON Server)
 
 
 ## Design Decision
