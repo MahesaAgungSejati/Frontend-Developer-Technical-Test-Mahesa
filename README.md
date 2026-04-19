@@ -1,25 +1,39 @@
-**Cara menjalankan project:**
-1. Untuk menjalankan React, buka terminal jalankan "npm install" dulu, lalu "npm run dev"
-2. Untuk menjalankan json-server, buka terminal baru jalankan "npx json-server --watch db.json --port 3000"
+# Cara Menjalankan Project
 
-**Estimasi waktu pengerjaan:**
-2 jam 19 menit
+Untuk menjalankan aplikasi React, buka terminal lalu jalankan perintah berikut:
 
-**Record pengerjaan dan Jawaban tertulis**
-Link : https://drive.google.com/drive/folders/1x31DAF-9ln88SX-H4ub_yE6Uy0rFSmP0?usp=sharing
+* `npm install`
+* `npm run dev`
 
-**Informasi video :**
-Menjawab pertanyaan bagian 
-**UX & USER FLOW (20%)** 
-mulai di menit 00:00:30
+Untuk menjalankan json-server, buka terminal baru lalu jalankan:
 
-Menjawab pertanyaan dan menjelaskan project bagian 
-**IMPLEMENTASI CORE FEATURE (30%)**
-**ENGINEERING QUALITY (25%)**
-**STATE MANAGEMENT (15%)**
-**PERFORMANCE & EDGE CASE (10%)**
-**BONUS (Opsional – Senior Level)** 
-mulai di menit 02:07:30
+* `npx json-server --watch db.json --port 3000`
+
+Estimasi waktu pengerjaan: 2 jam 19 menit
+
+---
+
+# Link Pengerjaan
+
+Record pengerjaan dan jawaban tertulis:
+(https://drive.google.com/drive/folders/1x31DAF-9ln88SX-H4ub_yE6Uy0rFSmP0?usp=drive_link)
+
+---
+
+# Informasi Video
+
+Penjelasan bagian UX & USER FLOW (20%) dimulai pada menit 00:00:30.
+
+Penjelasan project serta pembahasan:
+
+* IMPLEMENTASI CORE FEATURE (30%)
+* ENGINEERING QUALITY (25%)
+* STATE MANAGEMENT (15%)
+* PERFORMANCE & EDGE CASE (10%)
+* BONUS (Opsional – Senior Level)
+
+dimulai pada menit 02:07:30.
+
 
 **Struktur project**
 ```
