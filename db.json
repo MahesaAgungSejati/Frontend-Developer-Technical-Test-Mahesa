@@ -1,0 +1,153 @@
+{
+  "packages": [
+    {
+      "id": "1",
+      "name": "Paket Hemat 5GB",
+      "provider": "Telkomsel",
+      "price": 25000,
+      "quota": 5,
+      "description": "Kuota internet 5GB untuk 30 hari"
+    },
+    {
+      "id": "2",
+      "name": "Paket Streaming 15GB",
+      "provider": "XL",
+      "price": 50000,
+      "quota": 15,
+      "description": "Cocok untuk streaming"
+    },
+    {
+      "id": "3",
+      "name": "Paket Unlimited",
+      "provider": "Indosat",
+      "price": 75000,
+      "quota": 50,
+      "description": "Kuota besar untuk sebulan"
+    },
+    {
+      "id": "4",
+      "name": "Paket Pelajar 10GB",
+      "provider": "Tri",
+      "price": 35000,
+      "quota": 10,
+      "description": "Kuota khusus edukasi dan konferensi video"
+    },
+    {
+      "id": "5",
+      "name": "Smartfren Gokil 20GB",
+      "provider": "Smartfren",
+      "price": 45000,
+      "quota": 20,
+      "description": "10GB Kuota Utama + 10GB Kuota Malam"
+    },
+    {
+      "id": "6",
+      "name": "Telkomsel Orbit 30GB",
+      "provider": "Telkomsel",
+      "price": 65000,
+      "quota": 30,
+      "description": "Kuota modem rumah dengan kecepatan tinggi"
+    },
+    {
+      "id": "7",
+      "name": "XL Xtra Combo VIP",
+      "provider": "XL",
+      "price": 89000,
+      "quota": 40,
+      "description": "Prioritas jaringan dan akses aplikasi tanpa batas"
+    },
+    {
+      "id": "8",
+      "name": "Indosat Freedom Internet",
+      "provider": "Indosat",
+      "price": 100000,
+      "quota": 100,
+      "description": "Kuota utama 100GB tanpa pembagian waktu"
+    },
+    {
+      "id": "9",
+      "name": "Tri Happy 2GB",
+      "provider": "Tri",
+      "price": 10000,
+      "quota": 2,
+      "description": "Paket harian murah meriah"
+    },
+    {
+      "id": "10",
+      "name": "Smartfren Unlimited Nonstop",
+      "provider": "Smartfren",
+      "price": 30000,
+      "quota": 12,
+      "description": "Akses aplikasi nonstop setelah kuota utama habis"
+    },
+    {
+      "id": "11",
+      "name": "Telkomsel GigaMAX",
+      "provider": "Telkomsel",
+      "price": 150000,
+      "quota": 70,
+      "description": "Paket premium termasuk langganan video streaming"
+    },
+    {
+      "id": "12",
+      "name": "XL Akrab 65GB",
+      "provider": "XL",
+      "price": 120000,
+      "quota": 65,
+      "description": "Kuota besar bisa berbagi dengan anggota keluarga"
+    },
+    {
+      "id": "13",
+      "name": "Indosat Yellow 1GB",
+      "provider": "Indosat",
+      "price": 5000,
+      "quota": 1,
+      "description": "Kuota darurat untuk 1 hari"
+    },
+    {
+      "id": "14",
+      "name": "Tri AlwaysOn 3GB",
+      "provider": "Tri",
+      "price": 15000,
+      "quota": 3,
+      "description": "Masa aktif kuota mengikuti masa aktif kartu"
+    },
+    {
+      "id": "15",
+      "name": "By.U Yang Bikin Kaget",
+      "provider": "Telkomsel",
+      "price": 40000,
+      "quota": 18,
+      "description": "Penawaran terbatas khusus pengguna aplikasi"
+    }
+  ],
+  "transactions": [
+    {
+      "packageId": "15",
+      "userId": "1",
+      "price": 40000,
+      "paymentMethod": "gopay",
+      "paymentCode": "GOPAY-123456789",
+      "phoneNumber": "08123456789",
+      "id": "iNMJp7SRCnk"
+    },
+    {
+      "packageId": "1",
+      "userId": "1",
+      "price": 25000,
+      "paymentMethod": "ovo",
+      "paymentCode": "OVO-123456789",
+      "phoneNumber": "08123456789",
+      "id": "z7464WuqqyU"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Mahesa",
+      "email": "mahesa@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
